@@ -31,6 +31,24 @@ img {
   width: 80%;
 }
 
+.start {
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  font-family: 'Pacifico', cursive;
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+  background: #ff0000;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+}
+
+.start:hover {
+  background: #fc3c3c;
+  text-decoration: none;
+}
+
 footer {
   margin-top: 5%;
   color: #eeeeee;
