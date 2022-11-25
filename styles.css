@@ -1,6 +1,6 @@
 .container {
   width: 70%;
-  margin: auto;
+  margin: auto auto 10px;
   text-align: center;
 }
 
@@ -13,9 +13,9 @@ body {
   background-color: #393e46;
 }
 
-h1 {
-  margin: 30px;
-  font-family: 'Pacifico', cursive;
+#message {
+  margin: 10px 30px;
+  font-family: "Pacifico", cursive;
   text-shadow: 5px 0 #232931;
   font-size: 7rem;
   color: #4ecca3;
@@ -35,11 +35,11 @@ img {
   -webkit-border-radius: 30;
   -moz-border-radius: 30;
   border-radius: 30px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   color: #ffffff;
   border: none;
   font-size: 20px;
-  background: #9C060C;
+  background: #9c060c;
   padding: 10px 15px 10px 15px;
   text-decoration: none;
 }
@@ -53,7 +53,7 @@ footer {
   margin-top: 5%;
   color: #eeeeee;
   text-align: center;
-  font-size:1.4rem;
+  font-size: 1.4rem;
   font-family: "Pacifico", cursive;
 }
 
@@ -62,6 +62,6 @@ footer {
   color: #eeeeee;
 }
 
-.foot:hover span{
+.foot:hover span {
   text-decoration: underline;
 }
