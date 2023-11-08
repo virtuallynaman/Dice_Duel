@@ -18,9 +18,9 @@ document.querySelector(".roll").addEventListener("click", function () {
 
 
         if (randomNumber1 > randomNumber2) {
-            document.querySelector("#message").innerHTML = "Player 1 Wins🚩";
+            document.querySelector("#message").innerHTML = "Player 1 Wins🏆";
         } else if (randomNumber1 < randomNumber2) {
-            document.querySelector("#message").innerHTML = "Player 2 Wins🚩";
+            document.querySelector("#message").innerHTML = "Player 2 Wins🏆";
         } else {
             document.querySelector("#message").innerHTML = "Draw!";
         }
